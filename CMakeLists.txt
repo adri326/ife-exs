@@ -1,0 +1,63 @@
+cmake_minimum_required(VERSION 3.0)
+
+project(4.1)
+add_executable(4.1 src/4/4.1/main.c)
+
+project(4.2)
+add_executable(4.2 src/4/4.2/main.c)
+
+project(5.2)
+add_executable(5.2 src/5/5.2/main.c)
+
+project(5.4)
+add_executable(5.4 src/5/5.4/main.c)
+
+project(5.5)
+add_executable(5.5 src/5/5.5/main.c)
+
+project(5.6)
+add_executable(5.6 src/5/5.6/main.c)
+
+project(5.7)
+add_executable(5.7 src/5/5.7/main.c)
+
+project(5.8)
+add_executable(5.8 src/5/5.8/main.c)
+target_link_libraries(5.8 m)
+
+project(5.9)
+add_executable(5.9 src/5/5.9/main.c)
+
+project(6.1)
+add_executable(6.1 src/6/6.1/main.c)
+
+project(6.2)
+add_executable(6.2 src/6/6.2/main.c)
+
+project(6.3)
+add_executable(6.3 src/6/6.3/main.c)
+
+project(7.1)
+add_executable(7.1 src/7/7.1/main.c)
+
+project(7.2)
+add_executable(7.2 src/7/7.2/main.c)
+
+project(7.3)
+add_executable(7.3 src/7/7.3/main.c)
+
+project(7.4)
+add_executable(7.4 src/7/7.4/main.c)
+
+project(7.5)
+add_executable(7.5 src/7/7.5/main.c)
+
+project(7.6)
+add_executable(7.6 src/7/7.6/main.c)
+target_link_libraries(7.6 m)
+
+project(7.7)
+add_executable(7.7 src/7/7.7/main.c)
+
+project(7.8)
+add_executable(7.8 src/7/7.8/main.c)
