@@ -61,3 +61,22 @@ add_executable(7.7 src/7/7.7/main.c)
 
 project(7.8)
 add_executable(7.8 src/7/7.8/main.c)
+
+project(9.1)
+add_executable(9.1 src/9/9.1/main.c)
+
+project(9.2)
+add_executable(9.2 src/9/9.2/main.c)
+target_link_libraries(9.2 m)
+
+project(9.3)
+add_executable(9.3 src/9/9.3/main.c)
+
+project(9.4)
+add_executable(9.4 src/9/9.4/main.c)
+
+project(9.5)
+add_executable(9.5 src/9/9.5/main.c)
+
+project(9.6)
+add_executable(9.6 src/9/9.6/main.c)
