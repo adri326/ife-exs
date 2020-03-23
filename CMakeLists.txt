@@ -80,3 +80,10 @@ add_executable(9.5 src/9/9.5/main.c)
 
 project(9.6)
 add_executable(9.6 src/9/9.6/main.c)
+
+project(10.1)
+add_executable(10.1 src/10/10.1/main.c src/10/10.1/change-base.c src/10/10.1/change-base.h)
+
+project(10.2)
+add_executable(10.2 src/10/10.2/main.c src/10/10.2/complex.c src/10/10.2/complex.h)
+target_link_libraries(10.2 m)
