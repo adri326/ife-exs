@@ -37,6 +37,9 @@ int main(int argc, char** argv) {
     if (scanf_res == EOF) {
       printf("\n");
       return 0;
+    } else if (scanf_res == 0 || from <= 1 || from > 10) {
+      printf("This isn't a valid number!\n");
+      if (scanf_res == 0) scanf("%*[^\n]");
     }
   }
 
@@ -49,6 +52,7 @@ int main(int argc, char** argv) {
       return 0;
     } else if (scanf_res == 0 || to <= 1 || to > 10) {
       printf("This isn't a valid number!\n");
+      if (scanf_res == 0) scanf("%*[^\n]");
     }
   }
 

@@ -87,3 +87,13 @@ add_executable(10.1 src/10/10.1/main.c src/10/10.1/change-base.c src/10/10.1/cha
 project(10.2)
 add_executable(10.2 src/10/10.2/main.c src/10/10.2/complex.c src/10/10.2/complex.h)
 target_link_libraries(10.2 m)
+
+project(11.1)
+add_executable(11.1 src/11/11.1/main.c)
+
+project(11.2)
+add_executable(11.2 src/11/11.2/main.c src/11/11.2/cswap.c src/11/11.2/cswap.h)
+
+project(11.3)
+add_executable(11.3 src/11/11.3/main.c src/11/11.3/quadratic.c src/11/11.3/quadratic.h)
+target_link_libraries(11.3 m)
