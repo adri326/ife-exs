@@ -108,3 +108,15 @@ target_link_libraries(11.4 m)
 
 project(11.6)
 add_executable(11.6 src/11/11.6/main.c)
+
+project(12.1)
+add_executable(12.1 src/12/12.1/main.c)
+
+project(12.3)
+add_executable(12.3 src/12/12.3/main.c)
+
+project(12.4)
+add_executable(12.4 src/12/12.4/main.c)
+
+project(12.5)
+add_executable(12.5 src/12/12.5/main.c)
