@@ -97,3 +97,14 @@ add_executable(11.2 src/11/11.2/main.c src/11/11.2/cswap.c src/11/11.2/cswap.h)
 project(11.3)
 add_executable(11.3 src/11/11.3/main.c src/11/11.3/quadratic.c src/11/11.3/quadratic.h)
 target_link_libraries(11.3 m)
+
+project(11.4)
+add_executable(11.4
+  src/11/11.4/main.c
+  src/11/11.4/p2c.c
+  src/11/11.4/p2c.h
+)
+target_link_libraries(11.4 m)
+
+project(11.6)
+add_executable(11.6 src/11/11.6/main.c)
