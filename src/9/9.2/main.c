@@ -12,6 +12,7 @@ int main(int argc, char* argv[]) {
   printf("Enter an operation (eg. 2+3, without space): ");
   while (scanf("%d%c%d", &a, &c, &b) != 3) {
     printf("Invalid operation, try again: ");
+    scanf("%*[\n]");
   }
 
   printf("%d %c %d = %d\n", a, c, b, execute_op(a, b, c));
