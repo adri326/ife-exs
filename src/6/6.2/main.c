@@ -6,7 +6,7 @@ int main(int argc, char* argv[]) {
   int n;
   do {
     printf("Enter a number from 2 to 10: ");
-    int res = scanf("%d", &n);
+    const int res = scanf("%d", &n);
 
     if (res == 1) {
       if (n < 2 || n > 10) printf("The number must be between 2 and 10.\n");

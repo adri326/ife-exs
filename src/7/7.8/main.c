@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
 
   while (true) { // Input N
     printf("Enter how many prime numbers you want (5-100): ");
-    int res = scanf("%" SCNu64, &N);
+    const int res = scanf("%" SCNu64, &N);
     if (res == 1) {
       if (N >= 5 && N <= 100) break;
       else {

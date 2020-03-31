@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <math.h>
 
-bool getn(char* prompt, int* num, int def);
+bool getn(const char* prompt, int* num, const int def);
 
 // Sum of the numbers between d and f
 int main(int argc, char* argv[]) {
@@ -42,7 +42,7 @@ int main(int argc, char* argv[]) {
 }
 
 // Prints `str`, stores the result in `num`, with as default value `def` and returns wether or not a value could be stored in `num`.
-bool getn(char* prompt, int* num, int def) {
+bool getn(const char* prompt, int* num, const int def) {
   char str[127]; // Probably overkill
   while (true) {
     printf("%s", prompt);
@@ -52,7 +52,7 @@ bool getn(char* prompt, int* num, int def) {
       *num = def;
       break;
     } else {
-      int res = sscanf(str, "%d", num);
+      const int res = sscanf(str, "%d", num);
       if (res == 1) break;
       else if (res == EOF) {
         printf("\n");

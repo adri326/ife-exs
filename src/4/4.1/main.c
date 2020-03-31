@@ -7,7 +7,7 @@ int main(int argc, char* argv[]) {
   int b = 3;
 
   {
-    int c = a; // temporary value to hold the old value of a
+    const int c = a; // temporary value to hold the old value of a
     a = b;
     b = c;
     // note that in a language where assignement returns the previous value, this could have been written `a = b = a`

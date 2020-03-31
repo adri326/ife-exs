@@ -29,7 +29,7 @@ int main(int argc, char* argv[]) {
     int n;
     printf("%zu-th number: ", i + 1);
 
-    int res = scanf("%d", &n);
+    const int res = scanf("%d", &n);
     if (res == 0) {
       printf("Not a valid number!\n");
       scanf("%*[^\n]");

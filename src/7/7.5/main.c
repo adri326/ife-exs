@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
   while (true) {
     printf("Please enter a non-zero number from 5 to 15 or 20: ");
 
-    int res = scanf("%d", &num);
+    const int res = scanf("%d", &num);
     if (res == 1 && (num == 20 || (num >= 5 && num <= 15))) break;
     else if (res == EOF) {
       printf("\n");
