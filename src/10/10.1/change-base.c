@@ -1,6 +1,6 @@
 #include "change-base.h"
 
-size_t change_base(uint8_t num[WIDTH], uint8_t from, uint8_t to, uint8_t* target) {
+size_t change_base(const uint8_t num[WIDTH], const uint8_t from, const uint8_t to, uint8_t* target) {
   if (from <= 1 || from > 10 || to <= 1 || to > 10) return (size_t)(-1);
 
   uint64_t sum = 0;

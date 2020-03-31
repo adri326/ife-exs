@@ -4,10 +4,10 @@
 #include <inttypes.h>
 #include <ctype.h>
 
-uint32_t get_number(char* prompt, uint32_t lbound, uint32_t ubound);
+uint32_t get_number(const char* prompt, const uint32_t lbound, const uint32_t ubound);
 void sum_odd(void);
 void sum_even(void);
-uint32_t sum(uint32_t i, uint32_t max);
+uint32_t sum(uint32_t i, const uint32_t max);
 
 // "Sums of even or odd numbers" (they were probably out of ideas)
 int main(int argc, char* argv[]) {
@@ -34,7 +34,7 @@ void sum_odd() {
 }
 
 // Gets a number that must be between lbound and ubound
-uint32_t get_number(char* prompt, uint32_t lbound, uint32_t ubound) {
+uint32_t get_number(const char* prompt, const uint32_t lbound, const uint32_t ubound) {
   uint32_t n;
   char str[64];
   while (true) {
@@ -56,7 +56,7 @@ uint32_t get_number(char* prompt, uint32_t lbound, uint32_t ubound) {
 }
 
 // Returns the sum of the odd/even numbers, i determining wether we should sum odd or even numbers
-uint32_t sum(uint32_t i, uint32_t max) {
+uint32_t sum(uint32_t i, const uint32_t max) {
   uint32_t s = 0;
   for (; i <= max; i += 2) s += i;
   return s;

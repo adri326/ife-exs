@@ -6,7 +6,7 @@
 
 #define N_ATTEMPTS 3
 
-uint32_t get_number(char* prompt, uint32_t lbound, uint32_t ubound);
+uint32_t get_number(const char* prompt, const uint32_t lbound, const uint32_t ubound);
 
 // Multiplication CLI app
 int main(int argc, char* argv[]) {
@@ -42,7 +42,7 @@ int main(int argc, char* argv[]) {
 }
 
 // Gets a number that must be between lbound and ubound
-uint32_t get_number(char* prompt, uint32_t lbound, uint32_t ubound) {
+uint32_t get_number(const char* prompt, const uint32_t lbound, const uint32_t ubound) {
   uint32_t n;
   char str[64];
   while (true) {

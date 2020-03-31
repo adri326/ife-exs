@@ -2,8 +2,8 @@
 #include <math.h>
 #include "quadratic.h"
 
-void solve_quad(float a, float b, float c, uint8_t* n, float* x1, float* x2) {
-  float delta = b * b - 4 * a * c;
+void solve_quad(const float a, const float b, const float c, uint8_t* n, float* x1, float* x2) {
+  const float delta = b * b - 4 * a * c;
   if (delta < 0) {
     *n = 0;
     *x1 = *x2 = 0; // prevent UB

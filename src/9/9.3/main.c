@@ -3,8 +3,8 @@
 #include <stdbool.h>
 #include <ctype.h>
 
-double f2c(double fahrenheit);
-double c2f(double celsius);
+double f2c(const double fahrenheit);
+double c2f(const double celsius);
 
 // Degrees to fahrenheit and back to degrees
 int main(int argc, char* argv[]) {
@@ -40,10 +40,10 @@ int main(int argc, char* argv[]) {
   return 0;
 }
 
-double f2c(double fahrenheit) {
+double f2c(const double fahrenheit) {
   return (fahrenheit - 32.0) * 5.0 / 9.0;
 }
 
-double c2f(double celsius) {
+double c2f(const double celsius) {
   return celsius * 9.0 / 5.0 + 32.0;
 }

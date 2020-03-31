@@ -8,7 +8,7 @@ size_t n_occurences_s(const int* array, const size_t length, const int needle);
 
 // Counts the number of occurences of an item in a sorted array
 int main(int argc, char** argv) {
-  int arr[ARR_LEN] = {1, 2, 4, 4, 5};
+  const int arr[ARR_LEN] = {1, 2, 4, 4, 5};
   printf("Array is [%d, %d, %d, %d, %d].\n", arr[0], arr[1], arr[2], arr[3], arr[4]);
 
   for (int n = 0; n <= ARR_LEN; n++) {

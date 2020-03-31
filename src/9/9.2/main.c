@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int execute_op(int a, int b, char operator);
+int execute_op(const int a, const int b, const char operator);
 
 // Simple operation
 int main(int argc, char* argv[]) {
@@ -20,7 +20,7 @@ int main(int argc, char* argv[]) {
   return 0;
 }
 
-int execute_op(int a, int b, char operator) {
+int execute_op(const int a, const int b, const char operator) {
   switch (operator) {
     case '+': return a + b;
     case '-': return a - b;

@@ -5,10 +5,10 @@
 // The exercise did not make any grammatical sense
 // I assumed that we were tasked to find a specific item in an array
 
-bool is_in_array(int* hay, size_t length, int needle);
+bool is_in_array(const int* hay, const size_t length, const int needle);
 
 int main(int argc, char** argv) {
-  int arr[5] = {2, 4, 4, 1, 5};
+  const int arr[5] = {2, 4, 4, 1, 5};
   printf("Array is [%d, %d, %d, %d, %d].\n", arr[0], arr[1], arr[2], arr[3], arr[4]);
 
   for (int n = 1; n <= 5; n++) {
@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
   return 0;
 }
 
-bool is_in_array(int* hay, size_t length, int needle) {
+bool is_in_array(const int* hay, const size_t length, const int needle) {
   for (size_t n = 0; n < length; n++) {
     if (hay[n] == needle) return true;
   }

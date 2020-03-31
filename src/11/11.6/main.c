@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 size_t ask_length(void);
-float ask_note(size_t n);
-float get_mean(float* arr, size_t length);
+float ask_note(const size_t n);
+float get_mean(const float* arr, const size_t length);
 
 // Enter `length` notes in adynamically-allocated array and calculate their mean
 int main(int argc, char** argv) {
@@ -39,7 +39,7 @@ size_t ask_length() {
   return res;
 }
 
-float ask_note(size_t n) {
+float ask_note(const size_t n) {
   float res = 0;
   int scanf_res = 0;
 
@@ -58,7 +58,7 @@ float ask_note(size_t n) {
   return res;
 }
 
-float get_mean(float* arr, size_t length) {
+float get_mean(const float* arr, const size_t length) {
   float sum = 0.0;
   for (size_t n = 0; n < length; n++) {
     sum += arr[n];
