@@ -118,5 +118,5 @@ add_executable(12.3 src/12/12.3/main.c)
 project(12.4)
 add_executable(12.4 src/12/12.4/main.c)
 
-project(12.5)
-add_executable(12.5 src/12/12.5/main.c)
+project(12.7)
+add_executable(12.7 src/12/12.7/main.c)
