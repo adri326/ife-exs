@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <inttypes.h>
 #include <stdbool.h>
 #include "bubble-sort.h"

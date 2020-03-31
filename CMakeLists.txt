@@ -129,3 +129,9 @@ add_executable(12.7 src/12/12.7/main.c)
 
 project(12.8)
 add_executable(12.8 src/12/12.8/main.c src/12/12.8/bubble-sort.c src/12/12.8/bubble-sort.h)
+
+project(12.9)
+add_executable(12.9 src/12/12.9/main.c src/12/12.9/insertion-sort.c src/12/12.9/insertion-sort.h)
+
+project(12.10)
+add_executable(12.10 src/12/12.10/main.c)
