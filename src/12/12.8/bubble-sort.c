@@ -5,9 +5,9 @@
 
 
 void bubble_sort(int* array, const size_t length) {
-  for (size_t a = 0; a < length; a++) {
+  for (size_t a = 1; a <= length; a++) {
     bool sorted = true;
-    for (size_t n = 0; n < length - 1; n++) {
+    for (size_t n = 0; n < length - a; n++) {
       if (array[n] > array[n + 1]) {
         const int tmp = array[n];
         sorted = false;
