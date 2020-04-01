@@ -141,3 +141,6 @@ add_executable(12.11 src/12/12.11/main.c)
 
 project(12.12)
 add_executable(12.12 src/12/12.12/main.c src/12/12.12/query.c src/12/12.12/query.h src/12/12.12/extrema.c src/12/12.12/extrema.h)
+
+project(12.13)
+add_executable(12.13 src/12/12.13/main.c)
