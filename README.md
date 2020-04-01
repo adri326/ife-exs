@@ -1,8 +1,8 @@
 # ife-ex
 
-(Unfathomly stupid) exercises in C.
+(Very simple) exercises in C.
 My coding style heavily deviates from the one we were suggested.
-This is due to theirs being heavily outdated, poorly sourced and sometimes plain stupid.
+This is due to theirs being outdated, poorly sourced/justified or going against my own standards.
 
 ## Installation
 
@@ -20,3 +20,5 @@ mkdir build && cd build
 cmake ..
 make
 ```
+
+*Note:* Since there are a lot of projects to build at once, you might want to take advantage of multi-threading the process with `make -j`.
