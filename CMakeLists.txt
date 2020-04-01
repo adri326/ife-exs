@@ -135,3 +135,6 @@ add_executable(12.9 src/12/12.9/main.c src/12/12.9/insertion-sort.c src/12/12.9/
 
 project(12.10)
 add_executable(12.10 src/12/12.10/main.c)
+
+project(12.11)
+add_executable(12.11 src/12/12.11/main.c)
