@@ -18,8 +18,8 @@
 #include "display.h"
 
 #define N_NUMS 10
-#define MIN_NUM 0
-#define MAX_NUM 10000
+#define MIN_NUM 12
+#define MAX_NUM 488
 #define NUMS_PER_LINE 5
 #define NUM_WIDTH 6
 #define DURATION 10
@@ -65,6 +65,7 @@ int main(int argc, char** argv) {
   // Congratulation message
   printf("\n");
   printf("You managed to memorize " ANSI_COLOR_GREEN "%zu" ANSI_COLOR_NONE " of the " ANSI_COLOR_CYAN "%d" ANSI_COLOR_NONE " numbers!\n", n_valid, N_NUMS);
+  printf("You shall thus be given " ANSI_COLOR_GREEN "%zu" ANSI_COLOR_NONE " points!\n", n_valid * 2);
 
   return 0;
 }
