@@ -1,5 +1,11 @@
 cmake_minimum_required(VERSION 3.0)
 
+if(DEFINED NO_COLOR AND NO_COLOR EQUAL true)
+  message("No color mode enabled.")
+  message(${NO_COLOR})
+  add_compile_definitions(NO_COLOR)
+endif()
+
 project(4.1)
 add_executable(4.1 src/4/4.1/main.c)
 
@@ -144,3 +150,6 @@ add_executable(12.12 src/12/12.12/main.c src/12/12.12/query.c src/12/12.12/query
 
 project(12.13)
 add_executable(12.13 src/12/12.13/main.c)
+
+project(12.14)
+add_executable(12.14 src/12/12.14/main.c src/12/12.14/display.c src/12/12.14/display.h)

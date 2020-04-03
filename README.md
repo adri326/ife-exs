@@ -21,4 +21,8 @@ cmake ..
 make
 ```
 
-*Note:* Since there are a lot of projects to build at once, you might want to take advantage of multi-threading the process with `make -j`.
+### Building notes
+
+Since there are a lot of projects to build at once, you might want to take advantage of multi-threading the process with `make -j`.
+
+To disable colors, run cmake with the `-DNO_COLOR=true` argument. If you wish to revert this back, run cmake with `-DNO_COLOR=false`.
