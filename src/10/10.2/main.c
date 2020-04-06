@@ -3,6 +3,11 @@
 #include <math.h>
 #include "complex.h"
 
+// cf. 5.8
+#ifndef M_PI
+  #define M_PI 3.14159265358979323846
+#endif
+
 // Complex numbers
 int main(int argc, char** argv) {
   int scanf_res = 0;

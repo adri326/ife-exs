@@ -159,3 +159,9 @@ add_executable(12.15 src/12/12.15/main.c src/12/12.15/display.c src/12/12.15/dis
 
 project(12.16)
 add_executable(12.16 src/12/12.16/main.c)
+
+project(13.1)
+add_executable(13.1 src/13/13.1/main.c)
+
+project(13.2)
+add_executable(13.2 src/13/13.2/main.c)

@@ -37,4 +37,4 @@ Here is a list of the exercises that illustrate concepts of the C language.
 * Structures: *none, yet*
 * Dynamic memory allocation: `11.6`, `12.9`, `12.12`
 * `fgets` and `sscanf`: `7.2`, `9.6`, `12.12`
-* Strings: *none, yet*
+* Strings: 13-series

@@ -2,6 +2,11 @@
 #include <stdio.h>
 #include <math.h>
 
+// math.h is required *not* to define M_PI, thus we have to define it ourselves if the compiler does not define it already
+#ifndef M_PI
+  #define M_PI 3.14159265358979323846
+#endif
+
 // Seconds into hours, minutes and seconds
 int main(int argc, char* argv[]) {
   float r;
