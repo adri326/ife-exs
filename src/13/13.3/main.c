@@ -5,6 +5,7 @@
 #define N_STRINGS 15
 #define STR_LEN 128
 
+// Counting how many "martins" are in a string array
 int main(int argc, char** argv) {
   char names[N_STRINGS][STR_LEN];
   char* martin = "Martin";

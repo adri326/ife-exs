@@ -3,6 +3,7 @@
 
 size_t my_strlen(char* str);
 
+// Custom strlen implementation
 int main(int argc, char** argv) {
   char* strings[1024] = {
     "bread",

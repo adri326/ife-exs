@@ -3,6 +3,7 @@
 #include <ctype.h>
 #include "is_present.h"
 
+// Common letter enumerator
 int main(int argc, char** argv) {
   char word_a[1024];
   char word_b[1024];
