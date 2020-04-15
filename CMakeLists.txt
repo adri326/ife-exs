@@ -180,3 +180,6 @@ add_executable(13.6 src/13/13.6/main.c)
 
 project(13.7)
 add_executable(13.7 src/13/13.7/main.c)
+
+project(13.8)
+add_executable(13.8 src/13/13.8/main.c src/13/13.8/roman.c src/13/13.8/roman.h)
