@@ -177,3 +177,6 @@ add_executable(13.5 src/13/13.5/main.c src/13/13.5/is_present.c src/13/13.5/is_p
 
 project(13.6)
 add_executable(13.6 src/13/13.6/main.c)
+
+project(13.7)
+add_executable(13.7 src/13/13.7/main.c)
