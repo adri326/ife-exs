@@ -186,3 +186,6 @@ add_executable(13.8 src/13/13.8/main.c src/13/13.8/roman.c src/13/13.8/roman.h)
 
 project(13.9)
 add_executable(13.9 src/13/13.9/main.c)
+
+project(13.10)
+add_executable(13.10 src/13/13.10/main.c)

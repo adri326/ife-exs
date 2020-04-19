@@ -40,6 +40,7 @@ int main(int argc, char* argv[]) {
           || input[n] != '-')
         ) {
         is_valid = false;
+        break;
       }
     }
     if (input[n] == '\n') input[n] = 0;
