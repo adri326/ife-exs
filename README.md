@@ -34,7 +34,7 @@ Here is a list of the exercises that illustrate concepts of the C language.
 * Colors: `12.15`, `12.14`
 * Pointers: `7.6`, `10.1`, **`10.2`**, 12-series
 * Arrays: `10.1`, `12.3`, `12.5`, `12.9`
-* Structures: *none, yet*
+* Structures: `15.1`
 * Dynamic memory allocation: `11.6`, `12.9`, `12.12`
 * `fgets` and `sscanf`: `7.2`, `9.6`, `12.12`
 * Strings: 13-series
