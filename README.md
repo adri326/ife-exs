@@ -1,8 +1,7 @@
 # ife-ex
 
 (Very simple) exercises in C.
-My coding style heavily deviates from the one we were suggested.
-This is due to theirs being outdated, poorly sourced/justified or going against my own standards.
+My coding style heavily deviates from the one we were suggested, as the suggested one usually goes against my own standards.
 
 ## Installation
 
